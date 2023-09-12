@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bus Ticket Booking</title>
+</head>
+<body>
+    <h1>Bus Ticket Booking</h1>
+    <form>
+        Name:
+        <input type="text" id="name" name="name" required><br>
+        Email:
+        <input type="email" id="email" name="email" required><br>
+        Bus Route:
+        <select id="bus_route" name="bus_route" required>
+            <option value="Route 1">Route 1</option>
+            <option value="Route 2">Route 2</option>
+        </select><br>
+        Travel Date:
+        <input type="date" id="date" name="date" required><br>
+        Number of Ticket:
+        <input type="number" id="num_tickets" name="num_tickets" min="1" required><br>
+
+        <input type="submit" value="Book Tickets">
+    </form>
+</body>
+</html>
